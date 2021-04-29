@@ -3,11 +3,13 @@
 <p align="justify">In this repository, a study on forecasting trade direction of a stock, from tick data is carried out using two different models:</p>
 
 <ul>
-      <li><div align="justify"><code>Linear regression</code> which is used as an example to show it's non application in such problem. As a regression model, </div></li>
-    <li><div align="justify"></li>
+      <li><div align="justify"><code>Linear regression</code> which is used as an example to show it's non application in such problem. As a regression model, it's prediction is based on a quantity, and then on thresholds rather than classifying the result with a label.</div></li>
+      <li><div align="justify"><code>LSTM neural network</code> as an example in this study, which shows good results when applied with a large set of features.</li>
 </ul>
 
-<p align="justify">Based on the information provided by the order book, different features such as  to capture the imbalance between buy and sell orders, which will drive the price to move up or down.</p>
+<p align="justify">Based on the information provided by the order book, different important features such as <i>Volume Order Imbalance, Bid Ask spread, Mid-price basis, etc</i> are computed to capture the imbalance between buy and sell orders, that will drive the price to move up or down.</p>
+
+<p align="justify">As seen in the full study report '<em>Predicting tick's direction of a stock.pdf</em>' the LSTM neural network has been trained and tested in several conditions, to find which features are the most important to be fed to the model, as well as the lookback period for predicting next days of prices.</p>
 
 ## Getting Started
 
