@@ -43,30 +43,22 @@ https://scikit-learn.org/stable/install.html
 
 
 ### File descriptions
+
 <ul>
   
-<li><div align="justify">'<em>BacktesterLoop.py</em>' in which the Backtest class hierarchy encapsulates the other classes, to carry out a nested while-loop event-driven system in order to handle the events placed on the Event Queue object.</div></li>
+<li><div align="justify">'<em>Predicting tick's direction of a stock.pdf</em>' which is the report written on the full study.</div></li>
     
-<li><div align="justify">'<em>DataHandler.py</em>' which defines a class that gives all subclasses an interface for providing market data to the remaining components within the system. Data can be obtained directly from the web, a database or be read from CSV files for instance.</div></li>
+<li><div align="justify">'<em>lin_reg.py</em>' which is one of the main file to run the linear regression on the tick data.</div></li>
 
-<li><div align="justify">'<em>Events.py</em>' with four types of events (market, signal, order and fill), which allow communication between the above components via an event queue, are implemented.</div></li>
+<li><div align="justify">'<em>lstm_rnn.py</em>', which is the other main script for training and testing the lstm neural network. Some of the code needs to be commented/uncommented depending on which data or steps we are in </div></li>
 
-<li><div align="justify">'<em>Execution.py</em>' to simulate the order handling mechanism and ultimately tie into a brokerage or other
-means of market connectivity.</div</li>
+<li><div align="justify">'<em>functions.py</em>' where helper functions are located to compute diverse new features.</div</li>
 
-<li><div align="justify">'<em>Main.py</em>' which is the main Python program, englobing all the different subroutines, and where the different parameters to initialize the backtesting simulations are specified.</div</li>
+<li><div align="justify">'<em>TRAIN_DATA.csv</em>' which contains the original dataset for this project.</div</li>
 
-<li><div align="justify">'<em>Performance.py</em>' in which performance assessment criteria are implemented such as the Sharpe ratio and drawdowns.</div</li>
-  
-<li><div align="justify">'<em>PlotPerformance.py</em>' to plot figures based on the equity curve obtained after backtesting.</div</li>
-  
-<li><div align="justify">'<em>Portfolio.py</em>' that keeps track of the positions within a portfolio, and generates orders of a fixed quantity of stock based on signals.</div></li>
-
-<li><div align="justify">'<em>RiskManagement.py</em>' which would be the class for implementing risk management measures, as its name suggests such as VaR calculation, Kelly criterion for position sizing, etc.</div></li>
-
-<li><div align="justify">'<em>Strategy.py</em>' to generate a signal event from a particular strategy to communicate to the portfolio.</div></li>
-
-<li><div align="justify">In the '<em>Strategies</em>' directory, different trading strategies are implemented to be used for backtesting:</div></li>
+<li><div align="justify"> The '<em>PreData</em>' directory contains training statistics for both linear regression and lstm models.</div</li>
+      
+</ul>
 
 ## Contributing
 
