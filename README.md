@@ -1,5 +1,13 @@
 # Forecasting-trade-direction-an-example-with-LSTM-neural-network
 
+<p align="justify">In this repository, a study on forecasting trade direction of a stock, from tick data is carried out using two different models:</p>
+
+<ul>
+      <li><div align="justify"><code>Linear regression</code> which is used as an example to show it's non application in such problem. As a regression model, </div></li>
+    <li><div align="justify"></li>
+</ul>
+
+<p align="justify">Based on the information provided by the order book, different features such as  to capture the imbalance between buy and sell orders, which will drive the price to move up or down.</p>
 
 ## Getting Started
 
