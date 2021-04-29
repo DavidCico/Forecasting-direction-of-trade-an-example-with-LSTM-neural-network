@@ -42,7 +42,6 @@ https://www.scipy.org/install.html <br>
 https://scikit-learn.org/stable/install.html
 
 
-
 ### File descriptions
 <ul>
   
@@ -69,22 +68,9 @@ means of market connectivity.</div</li>
 
 <li><div align="justify">In the '<em>Strategies</em>' directory, different trading strategies are implemented to be used for backtesting:</div></li>
 
-  <ul>
-    <li><div align="justify">'<em>Buy_And_Hold_Strat.py</em>' in which a simple buy and hold strategy is coded.</div></li>
-  <li><div align="justify">'<em>MAC_Strat.py</em>' to generate signals from simple moving averages.</div></li>
-  <li><div align="justify">'<em>CreateLaggedSeries.py</em>' to create lagged timeseries, to be used in the ETF forecast strategy (helper function).</div></li>
-  <li><div align="justify">'<em>ETF_Forecast.py</em>' to generate signals on the current from previous days prices of an ETF.</div></li>
-  </ul>
-
-  
-
-
-
-</ul>
-
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/DavidCico/Modified-QuantStart-Backtester-With-Trading-Strategies/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/DavidCico/Forecasting-direction-of-trade-an-example-with-LSTM-neural-network/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -94,4 +80,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **David Cicoria** - *Initial work* - [DavidCico](https://github.com/DavidCico)
 
-See also the list of [contributors](https://github.com/DavidCico/Modified-QuantStart-Backtester-With-Trading-Strategies/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/DavidCico/Forecasting-direction-of-trade-an-example-with-LSTM-neural-network/graphs/contributors) who participated in this project.
